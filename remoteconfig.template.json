@@ -1,0 +1,38 @@
+{
+  "conditions": [],
+  "parameters": {
+    "timer_durations": {
+      "defaultValue": {
+        "value": "{\"Europe\":900,\"Asia\":1800,\"Africa\":1500,\"North America\":600,\"South America\":480,\"Oceania\":300,\"All World\":3600}"
+      },
+      "description": "Timer durations in seconds for each game mode"
+    },
+    "game_settings": {
+      "defaultValue": {
+        "value": "{\"allowTimerPause\":true,\"minGuessLength\":2,\"caseSensitive\":false}"
+      },
+      "description": "General game settings that can be modified remotely"
+    },
+    "achievement_settings": {
+      "defaultValue": {
+        "value": "{\"speedDemonTimeLimit\":600}"
+      },
+      "description": "Settings for achievement unlocking criteria"
+    },
+    "feature_flags": {
+      "defaultValue": {
+        "value": "{\"enableLLMTimerEvaluation\":true,\"showHints\":true,\"enableAnalytics\":true}"
+      },
+      "description": "Feature flags for enabling/disabling app features"
+    }
+  },
+  "version": {
+    "versionNumber": "1",
+    "updateTime": "2024-01-01T00:00:00.000Z",
+    "updateUser": {
+      "email": "admin@geoguesser.com"
+    },
+    "updateOrigin": "CONSOLE",
+    "updateType": "INCREMENTAL_UPDATE"
+  }
+}
